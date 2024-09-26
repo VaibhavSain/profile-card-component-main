@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+body {
+  min-height: 100vh;
+   min-width: 100vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #19a1ad;
+}
+.bg-top { 
+    position: absolute;
+    background-size: cover;
+    top: -35em;
+    left: -22em;
+    z-index: -1;
+
+}
+.bg-bottom {
+    position: absolute;
+    background-size: cover;
+    bottom: -35em;
+    right: -22em;
+    z-index: -1;
+}
+.container {
+   height: 400px;
+   width: 360px;
+    background-color: #ffff;
+    border-radius: 15px;
+}
+.container .pattern {
+    height: 160px;
+    width: 100%;
+    z-index: -5;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+}
+.container .profile {
+    background-size: cover;
+    border-radius: 50%;
+    position: absolute;
+    left: 39em;
+    margin-top: 6.6em;
+    border: 5px solid #ffff;
+}
+.container .name {
+    font-weight: bold;
+    color: rgba(0, 0, 0, 0.90);
+    margin-top: 4em;
+    margin-left: 7.7em;
+}
+.container .name span {
+    color: rgba(0, 0,0, 0.6);
+    font-weight: 400;
+}
+.container .location {
+    font-size: 14px;
+    font-weight: light;
+    color: rgba(0, 0, 0, 0.7);
+    margin-top: 1em;
+    margin-left: 11em;
+}
+.container hr {
+   color: rgba(0, 0, 0, 0.1);
+   margin-top: 1.5em;
+}
+.container .followers {
+    font-weight: bold;
+    color: rgba(0, 0,0, 0.8);
+    font-size: 18px;
+    margin-top: 18px;
+    margin-left: 48px;
+}
+.container .tags {
+    font-weight: light;
+    font-size: 12px;
+    margin-top:10px ;
+    margin-left: 38px;
+    color: rgba(0, 0, 0, 0.6);
+}
